@@ -32,26 +32,6 @@ int main()
    t = n;   //point to the same node as n this will connect the nodes
    h = n;   //stays in place
 
-   /*
-   n = new Node;
-   n->data = 1;
-   t->next = n;   //tells where to point to next/ points to 
-   t = n;   //can also be t = t->next;
-
-   n = new Node;
-   n->data = 2;
-   t->next = n;
-   t = n;   //make t point to n's next element can also be t = t->next;
-
-   n = new Node;  
-   n->data = 3;   //new node will equal 3
-   t->next = n;   //make t point to the node that n is pointing to which is 3
-   n->next = nullptr;   //doesn't point to anything
-   */
-
-   //n = addNodeToEnd(n, 1);
-   //n = addNodeToEnd(n, 2);
-   //n = addNodeToEnd(n, 3);
    if (inputFile)
    {
       while (inputFile >> val)
